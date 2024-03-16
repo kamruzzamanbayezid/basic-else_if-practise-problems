@@ -107,16 +107,19 @@ let ticketPrise = 800;
 const age = 80;
 const isStudent = true;
 
-if (age < 10) {
-      console.log('Your entry is free');
-}
-else if (isStudent) {
-      console.log((ticketPrise * 50) / 100);
-}
-else if (age >= 60) {
-      let discount = ((ticketPrise * 15) / 100);
-      console.log(ticketPrise - discount);
-}
-else {
-      console.log(ticketPrise);
-}
+// if (age < 10) {
+//       console.log('Your entry is free');
+// }
+// else if (isStudent) {
+//       console.log((ticketPrise * 50) / 100);
+// }
+// else if (age >= 60) {
+//       let discount = ((ticketPrise * 15) / 100);
+//       console.log(ticketPrise - discount);
+// }
+// else {
+//       console.log(ticketPrise);
+// }
+
+
+console.log('My name \n is khan');
