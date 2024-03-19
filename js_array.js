@@ -6,6 +6,9 @@
 // console.log(typeof newNum);
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const d = fruits.toSorted()
+// console.log(d);
+// console.log(fruits);
 // console.log(typeof(fruits.toString()));
 // console.log(typeof(fruits));
 // console.log(fruits.length);
@@ -44,4 +47,55 @@ const newArr = myArr.flat();
 // console.log(newArr);
 
 const array2 = [1, 2, 3, 4, 5, 6, 7];
-console.log(array2.splice(0, 2, 1, 2));
+const slice = array2.slice(0, 3)
+
+// console.log(slice);
+// console.log(array2);
+// console.log(array2.indexOf(2));
+
+const find = array2.findIndex(arr => arr > 5)
+// console.log(find);
+
+const temp = [27, 28, 30, 40, 42, 45, 35, 30];
+// console.log(Math.max.apply(null, temp));
+const findLast = temp.findLast(tem => tem > 40)
+// console.log(findLast);
+// temp.sort(() => (a, b) => {
+//       return a - b
+// })
+// console.log(temp);
+
+const sort = temp.sort(function (a, b) {
+      return b - a
+})
+
+// console.log(sort);
+
+const persons = [
+      { name: 'kalu', age: 20 },
+      { name: 'malu', age: 22 },
+      { name: 'alu', age: 42 }
+];
+
+const result = persons.sort(function (a, b) {
+      return a.age - b.age
+})
+
+// console.log(result);
+
+let age = 18;
+
+// if (age > 20) {
+//       console.log("You'r adult");
+// }
+// else {
+//       console.log("You're Voira");
+//}
+
+switch (age) {
+      case 18:
+            console.log('You are adult');
+            break;
+      default:
+            console.log('kire picchi');
+}
