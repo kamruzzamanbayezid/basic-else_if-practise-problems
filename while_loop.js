@@ -38,3 +38,23 @@ while (number <= 10) {
       number++;
 }
 // console.log("Total:", total);
+
+// let i = 0;
+// let sum = 0;
+
+// while (i <= 10) {
+//       sum += i;
+//       i++;
+// }
+
+// console.log(sum);
+
+let i = 1;
+let sum = 1;
+
+while (i <= 5) {
+      sum *= i;
+      i++;
+}
+
+console.log(sum);

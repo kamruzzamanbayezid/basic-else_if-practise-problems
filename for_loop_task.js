@@ -31,7 +31,7 @@ for (let i = 11; i <= 20; i++) {
 // give me the list of numbers 1 to 30 divisible by 5
 for (i = 1; i <= 30; i++) {
       if (i % 5 === 0) {
-            console.log(i);
+            // console.log(i);
       }
 }
 
@@ -63,7 +63,7 @@ As Ersa is learning now, she wants to explore more and more. Tell Ersa to genera
 const number = 3;
 
 for (let i = 1; i <= 10; i++) {
-      console.log(`${number} * ${i} = ${number * i}`);
+      // console.log(`${number} * ${i} = ${number * i}`);
 }
 
 // for (let i = 1; i <= 10; i++) {
@@ -73,3 +73,31 @@ for (let i = 1; i <= 10; i++) {
 
 //       console.log(`${number} * ${i} = ${result}`);
 // }
+
+
+const numbers = [23, 43, 2, 5, 346, 203, 2];
+
+// sum of even numbers 
+let evenNumberSum = 0;
+let oddNumberSum = 0;
+
+for (let number of numbers) {
+      if (number % 2 === 0) {
+            evenNumberSum += number;
+      }
+      else {
+            oddNumberSum += number;
+      }
+
+}
+console.log('Total of even number: ', evenNumberSum);
+console.log('Total of odd number: ', oddNumberSum);
+// let oddNumberSum = 0;
+// for (let number of numbers) {
+//       if (number % 2 === 1) {
+//             oddNumberSum += number;
+//       }
+
+// }
+// console.log('Total of odd number: ', oddNumberSum);
+
