@@ -18,3 +18,36 @@ for (property in pen) {
 
 //       console.log(properties, ':', values);
 // }
+
+const person = {
+      name: "John",
+      age: 30,
+      city: "New York"
+}
+// console.log(JSON.stringify(person));
+
+const obj = {
+      name: 'John',
+      age: 30,
+      greet: function () {
+            console.log('Hello!');
+      }
+};
+
+// obj.greet = obj.greet.toString();
+
+// const jsonString = JSON.stringify(obj);
+// console.log(jsonString);
+console.log(obj);
+
+const pet = {
+      firstName: 'Jerry',
+      lastName: 'Kery',
+      eyeColor: 'blue',
+      get fullName() {
+            return `${this.firstName} ${this.lastName}`
+      }
+}
+
+console.log(pet.fullName);
+
